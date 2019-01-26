@@ -66,7 +66,7 @@ You can then add username and password key in your homebridge config, example:
   	"poll_status_interval": "60",
   	"model_year": 2016,
   	"has_ambilight": true,
-  	"has_ssh": true,
+  	"has_ssl": true,
   	"username": "deadbeef0815",
   	"password": "deadbeef0815deadbeef0815deadbeef0815deadbeef0815deadbeef0815",
   }
@@ -87,7 +87,9 @@ Get function for audio/ambilight/etc. should be modified to attend nothing when 
 
 # Dev notes about JointSpace URLs
 
-POST to /6/menuitems/settings/current allow to get current Ambilight settings
-POST to /6/menuitems/settings/update allow to update Ambilight settings
-GET to /6/menuitems/settings/structure allow to have the details of the menu and options
+POST to /6/menuitems/settings/current allow to get current Ambilight settings.
+
+POST to /6/menuitems/settings/update allow to update Ambilight settings.
+
+GET to /6/menuitems/settings/structure allow to have the details of the menu and options.
 
